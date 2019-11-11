@@ -14,11 +14,11 @@ import java.util.List;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
-public class PresidentsAdapter extends RecyclerView.Adapter<PresidentsAdapter.PresidentsViewHolder> {
+public class President_Adapter extends RecyclerView.Adapter<President_Adapter.PresidentsViewHolder> {
     Context mContext;
-    List<Presidents> presidentsList;
+    List<President_Activity> presidentsList;
 
-    public PresidentsAdapter(Context mContext, List<Presidents> presidentsList) {
+    public President_Adapter(Context mContext, List<President_Activity> presidentsList) {
         this.mContext = mContext;
         this.presidentsList=presidentsList;
     }
@@ -32,7 +32,7 @@ public class PresidentsAdapter extends RecyclerView.Adapter<PresidentsAdapter.Pr
 
     @Override
     public void onBindViewHolder(@NonNull PresidentsViewHolder holder, int i) {
-        final Presidents presidents = presidentsList.get(i);
+        final President_Activity presidents = presidentsList.get(i);
         holder.imgProfile.setImageResource(presidents.getImage());
         holder.presidentName.setText(presidents.getName());
         //holder.about.setText(presidents.getAbout());
@@ -40,7 +40,7 @@ public class PresidentsAdapter extends RecyclerView.Adapter<PresidentsAdapter.Pr
         holder.imgProfile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(mContext,DetailsActivity.class);
+                Intent intent = new Intent(mContext, Detail_Activity.class);
 
                 intent.putExtra("image",presidents.getImage());
                 intent.putExtra("name",presidents.getName());

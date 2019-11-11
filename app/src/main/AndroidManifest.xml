@@ -11,7 +11,7 @@
         android:theme="@style/AppTheme">
         <activity android:name="com.example.president_of_amreica.SpinnerDisplayActivity" android:parentActivityName="com.example.president_of_amreica.SpinnerFormActivity"></activity>
         <activity android:name="com.example.president_of_amreica.SpinnerFormActivity" />
-        <activity android:name="com.example.president_of_amreica.DashboardActivity">
+        <activity android:name="com.example.president_of_amreica.Dashboard_Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.president_of_amreica.DetailsActivity"
+            android:name="com.example.president_of_amreica.Detail_Activity"
             android:parentActivityName="com.example.president_of_amreica.MainActivity" />
         <activity android:name="com.example.president_of_amreica.MainActivity"></activity>
     </application>

@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class DashboardActivity extends AppCompatActivity implements View.OnClickListener {
+public class Dashboard_Activity extends AppCompatActivity implements View.OnClickListener {
 
     Button btn1,btn2;
 

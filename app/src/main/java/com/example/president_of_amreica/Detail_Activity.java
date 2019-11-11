@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
-public class DetailsActivity extends AppCompatActivity {
+public class Detail_Activity extends AppCompatActivity {
      TextView fullName, about;
      CircleImageView imgProfile;
 

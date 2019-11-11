@@ -1,12 +1,12 @@
 package com.example.president_of_amreica;
 
-public class Presidents {
+public class President_Activity {
 
     private String name;
     private int image;
     private String about;
 
-    public Presidents(String name, int image,String about) {
+    public President_Activity(String name, int image, String about) {
         this.name = name;
         this.image = image;
         this.about = about;
