@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DashboardActivity"
+    android:layout_margin="10dp"
+    >
+
+    <Button
+        android:id="@+id/btnPresidents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="100dp"
+        android:background="#2196F3"
+        android:padding="25dp"
+        android:text="President of USA"
+        android:textColor="#E5E7E9 "
+        android:textSize="25dp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#8BC34A"
+        android:padding="25dp"
+        android:text="FORM"
+        android:textColor="#F5EEF1"
+        android:textSize="25dp">
+
+    </Button>
+
+
+</LinearLayout>
