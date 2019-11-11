@@ -18,7 +18,6 @@ public class SpinnerFormActivity extends AppCompatActivity implements AdapterVie
     Spinner spinner;
     Button Submit;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,6 +31,7 @@ public class SpinnerFormActivity extends AppCompatActivity implements AdapterVie
 
         viewValue();
 
+
         Submit.setOnClickListener( new View.OnClickListener(){
             @Override
             public void onClick(View v) {
@@ -40,6 +40,7 @@ public class SpinnerFormActivity extends AppCompatActivity implements AdapterVie
                 phone = etPhone.getText().toString();
                 email = etEmail.getText().toString();
                 address = spinner.getSelectedItem().toString();
+
 
                 Intent intentForm = new Intent(SpinnerFormActivity.this, SpinnerDisplayActivity.class);
                 intentForm.putExtra("forName", name);

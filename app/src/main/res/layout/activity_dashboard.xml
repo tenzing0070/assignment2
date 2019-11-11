@@ -9,6 +9,7 @@
     android:layout_margin="10dp"
     >
 
+
     <Button
         android:id="@+id/btnPresidents"
         android:layout_width="match_parent"
@@ -22,6 +23,7 @@
         android:textSize="25dp">
 
     </Button>
+
 
     <Button
         android:id="@+id/btnForm"

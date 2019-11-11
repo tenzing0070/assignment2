@@ -14,6 +14,8 @@ import java.util.List;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
+
+
 public class President_Adapter extends RecyclerView.Adapter<President_Adapter.PresidentsViewHolder> {
     Context mContext;
     List<President_Activity> presidentsList;
@@ -65,7 +67,7 @@ public class President_Adapter extends RecyclerView.Adapter<President_Adapter.Pr
             super(itemView);
             imgProfile= itemView.findViewById(R.id.imgProfile);
             presidentName= itemView.findViewById(R.id.fullName);
-            //about=itemView.findViewById(R.id.about);
+
         }
     }
 }

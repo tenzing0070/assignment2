@@ -27,8 +27,8 @@ public class SpinnerDisplayActivity extends AppCompatActivity {
             tvPhone.setText(bundleForm.getString("forPhone"));
             tvEmail.setText(bundleForm.getString("forEmail"));
             tvAddress.setText(bundleForm.getString("forAddress"));
-
         }
+
         else{
             Toast.makeText(this, "Sorry, no data found.", Toast.LENGTH_SHORT).show();
         }

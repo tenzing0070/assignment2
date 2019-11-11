@@ -11,8 +11,6 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
-    //Toolbar mActionBarToolbar;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         presidentsList.add(new President_Activity("Bill Clinton",R.drawable.bill_clinton," William Jefferson Clinton (born William Jefferson Blythe III; August 19, 1946) is an American politician who served as the 42nd president of the United States from 1993 to 2001. Prior to his presidency, he served as governor of Arkansas (1979-1981 and 1983-1992)."));
         presidentsList.add(new President_Activity("Ronald Reagan",R.drawable.ronald_regan," Ronald Wilson Reagan  February 6, 1911 – June 5, 2004) was an American politician who served as the 40th president of the United States from 1981 to 1989 and became the highly influential voice of modern conservatism. Prior to his presidency."));
         presidentsList.add(new President_Activity("Jimmy Carter",R.drawable.jimmy_carter,"James Earl Carter Jr. (born October 1, 1924) is an American politician and philanthropist who served as the 39th president of the United States from 1977 to 1981. A member of the Democratic Party, he previously served as a Georgia State Senator from 1963 to 1967 and as the 76th Governor of Georgia from 1971 to 1975."));
+
 
         President_Adapter presidentAdapter = new President_Adapter(this,presidentsList);
         recyclerView.setAdapter(presidentAdapter);
